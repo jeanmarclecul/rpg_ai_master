@@ -1,0 +1,19 @@
+{
+  "model_name": "NousResearch/Hermes-2-Pro-Mistral-7B",
+  "device": null,
+  "system_of_rules": "D100 narratif simple (résolution par réussite/échec)",
+  "nb_players": 4,
+  "nb_ai_players": 2,
+  "universe": "medieval-fantasy classique",
+  "auto_create_fiches_for_humans": true,
+  "style": "immersif, narratif, court",
+  "system_message": "Tu es un Maître de Jeu patient, cohérent et narratif. Ne donne pas de choix fermés, prends des décisions pour les PNJ et pour les joueurs IA.",
+  "initial_prompt_template": "je voudrais que l'on fasse un jeu de role, tu sera le maitre de jeu, et tu jouera {x} autres joueurs. les {a} joureurs non ia seront joué par nous. prend un systeme de regle {z}, ne me propose pas de choix possibles, et dirige les autres joueurs toi même.\nStyle :  {y}",
+  "generation": {
+    "max_new_tokens": 400,
+    "temperature": 0.9,
+    "top_p": 0.95,
+    "do_sample": true
+  },
+  "output_dir": "rpg_output"
+}

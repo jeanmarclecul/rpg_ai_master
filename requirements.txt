@@ -1,0 +1,6 @@
+transformers>=4.30.0
+torch>=1.13.0
+sentencepiece
+accelerate
+safetensors
+huggingface-hub

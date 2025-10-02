@@ -1,0 +1,7 @@
+.venv_rpg_ai/
+__pycache__/
+*.pyc
+.env
+.DS_Store
+rpg_ai.db
+instance/
