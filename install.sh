@@ -11,6 +11,6 @@ pip install -r requirements.txt
 
 echo "Environnement virtuel créé et dépendances installées."
 echo "Pour lancer le jeu :"
-echo "  source ${VENV_DIR}/bin/activate"
+echo "  source ${VENV_DIR}/Scripts/activate"
 echo "  export HF_HOME=$(pwd)/hf_cache"
 echo "  python rpg_ai_master.py --config config.json"
